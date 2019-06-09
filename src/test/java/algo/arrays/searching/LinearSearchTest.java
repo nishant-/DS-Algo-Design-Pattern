@@ -1,7 +1,6 @@
 package algo.arrays.searching;
 
 
-import algo.arrays.searching.LinearSearch;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
