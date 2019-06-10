@@ -58,7 +58,24 @@ public class SinglyLinkedList<T> {
     public  boolean isEmpty() {
         return size==0;
     }
+    public void firstLast(){
 
+        if(isEmpty()||size==1)
+            return;
+        Node<T> node = getHead();
+        T data = node.getData();
+        while(true){
+            if(node.next==null){
+                T lData = node.getData();
+                node.setData(data);
+                getHead().setData(lData);
+                break;
+            }
+            node = node.next;
+        }
+
+
+    }
 
     public void display() {
         Node<T> tmp = getHead();
@@ -116,7 +133,11 @@ public class SinglyLinkedList<T> {
         stringSinglyLinkedList.delete("c");
         stringSinglyLinkedList.display();
         System.out.println();*/
-       System.out.println("retrieving first element,"+stringSinglyLinkedList.poll());
+    //   System.out.println("retrieving first element,"+stringSinglyLinkedList.poll());
        stringSinglyLinkedList.display();
+       stringSinglyLinkedList.firstLast();
+        System.out.println();
+        stringSinglyLinkedList.display();
+
     }
 }
