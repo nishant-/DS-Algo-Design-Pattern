@@ -5,6 +5,8 @@ public class SinglyLinkedList<T> {
     private Node<T> head;
     private int size;
 
+
+
     private static class Node<T> {
         T data;
         Node<T> next;
@@ -63,6 +65,10 @@ public class SinglyLinkedList<T> {
     //implement delete method
     //implement reverse method
 
+    public  boolean isEmpty() {
+        return size==0;
+    }
+
 
     public void display() {
         Node<T> tmp = getHead();
@@ -95,7 +101,14 @@ public class SinglyLinkedList<T> {
         return -1;
     }
 
-
+    //retireve and remove the first node (head node)
+    public T poll(){
+        if(isEmpty())
+            throw new RuntimeException("List is empty");
+        T data = head.getData();
+        setHead(head.next);
+        return data;
+    }
 
     public static void main(String[] args) {
 
@@ -105,7 +118,7 @@ public class SinglyLinkedList<T> {
         stringSinglyLinkedList.add("c");
         stringSinglyLinkedList.display();
         System.out.println();
-        stringSinglyLinkedList.delete("a");
+       /* stringSinglyLinkedList.delete("a");
         stringSinglyLinkedList.display();
         System.out.println();
         stringSinglyLinkedList.delete("b");
@@ -113,6 +126,8 @@ public class SinglyLinkedList<T> {
         System.out.println();
         stringSinglyLinkedList.delete("c");
         stringSinglyLinkedList.display();
-        System.out.println();
+        System.out.println();*/
+       System.out.println("retrieving first element,"+stringSinglyLinkedList.poll());
+       stringSinglyLinkedList.display();
     }
 }
