@@ -4,39 +4,29 @@ public class SinglyLinkedList<T> {
 
     private Node<T> head;
     private int size;
-
-
-
     private static class Node<T> {
         T data;
         Node<T> next;
-
         Node(T data) {
             this.data = data;
             next = null;
         }
-
         public T getData() {
             return data;
         }
-
         public void setData(T data) {
             this.data = data;
         }
     }
-
     public int getListSize() {
         return size;
     }
-
     public void setSize(int size) {
         this.size = size;
     }
-
     public Node<T> getHead() {
         return head;
     }
-
     public void setHead(Node<T> head) {
         this.head = head;
     }
@@ -100,7 +90,6 @@ public class SinglyLinkedList<T> {
         }
         return -1;
     }
-
     //retireve and remove the first node (head node)
     public T poll(){
         if(isEmpty())

@@ -25,7 +25,7 @@ public class MergeSort {
         for(int i=0;i<numberOfItemsToBeCopied;i++){
             targetArray[i]=inputArray[startPosOfInput+i];
         }
-        //copy sentinel value
+        //set sentinel value
         targetArray[numberOfItemsToBeCopied] = Integer.MAX_VALUE;
     }
 
