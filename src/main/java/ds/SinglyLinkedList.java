@@ -58,8 +58,8 @@ public class SinglyLinkedList<T> {
     public  boolean isEmpty() {
         return size==0;
     }
-    public void firstLast(){
 
+    public void firstLast(){
         if(isEmpty()||size==1)
             return;
         Node<T> node = getHead();
@@ -73,8 +73,25 @@ public class SinglyLinkedList<T> {
             }
             node = node.next;
         }
+    }
 
-
+    public void insert(int pos, T data) {
+        if(pos>size)
+            throw new RuntimeException("pos does not exist");
+        int start = 0;
+        Node<T> curr = getHead();
+        Node<T> next = curr.next;
+        while(true){
+            if(start==pos){
+                Node<T> tmp = new Node<>(data);
+          //      Node<T> atInsertionPoint = ;
+            //    node.next=tmp;
+               // tmp.next=atInsertionPoint;
+                break;
+            }
+      //      node = node.next;
+            start++;
+        }
     }
 
     public void display() {
@@ -134,8 +151,11 @@ public class SinglyLinkedList<T> {
         stringSinglyLinkedList.display();
         System.out.println();*/
     //   System.out.println("retrieving first element,"+stringSinglyLinkedList.poll());
-       stringSinglyLinkedList.display();
-       stringSinglyLinkedList.firstLast();
+        stringSinglyLinkedList.display();
+        stringSinglyLinkedList.firstLast();
+        System.out.println();
+        stringSinglyLinkedList.display();
+        stringSinglyLinkedList.insert(2,"e");
         System.out.println();
         stringSinglyLinkedList.display();
 
