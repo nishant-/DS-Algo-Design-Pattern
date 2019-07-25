@@ -1,5 +1,6 @@
 package patterns.behavioral.command;
 
+//on command
 public class OnCommand implements Command {
 
     private Television television;

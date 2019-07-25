@@ -1,6 +1,6 @@
 package patterns.behavioral.command;
 
-//the receiver class
+//the receiver class has the command methods
 public class Television {
 
     public void on(){

@@ -1,6 +1,6 @@
 package patterns.behavioral.command;
 
-//the invoker
+//the invoker has the command
 public class RemoteControl {
 
     private Command command;

@@ -1,5 +1,6 @@
 package patterns.behavioral.command;
 
+//
 public class OffCommand implements Command {
 
     private Television television;
