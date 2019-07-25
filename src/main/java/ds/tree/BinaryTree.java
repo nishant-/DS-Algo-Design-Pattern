@@ -1,4 +1,4 @@
-package ds;
+package ds.tree;
 
 import java.util.Comparator;
 
