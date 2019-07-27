@@ -6,11 +6,15 @@ public class SingletonDoubleCheckedLocking {
 
     }
 
-    private static SingletonDoubleCheckedLocking instance;
+    private static volatile SingletonDoubleCheckedLocking instance;
 
-    public static synchronized SingletonDoubleCheckedLocking getInstance() {
+    public static  SingletonDoubleCheckedLocking getInstance() {
         if(instance == null) {
-            instance = new SingletonDoubleCheckedLocking();
+            synchronized (SingletonDoubleCheckedLocking.class) {
+                if (instance == null) {
+                    instance = new SingletonDoubleCheckedLocking();
+                }
+            }
         }
         return instance;
     }
