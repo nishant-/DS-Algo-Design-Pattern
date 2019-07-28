@@ -1,4 +1,4 @@
-package patterns.creational;
+package patterns.creational.singleton;
 
 public class SingletonDoubleCheckedLocking {
 

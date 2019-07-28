@@ -3,6 +3,7 @@ package patterns.creational;
 
 import org.junit.Assert;
 import org.junit.Test;
+import patterns.creational.singleton.Singleton;
 
 
 public class SingletonTest {

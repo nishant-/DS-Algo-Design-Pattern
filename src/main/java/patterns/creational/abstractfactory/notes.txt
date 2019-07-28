@@ -1,0 +1,5 @@
+Abstract factory for producing abstract factories.
+A factory is returned which is usually abstract instead of a factory type.
+
+
+
