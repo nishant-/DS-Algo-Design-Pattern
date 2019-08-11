@@ -12,7 +12,7 @@ public class TwoSumProblemTest {
 
 
     @Test
-    public void findPairs_fromTheGivenArray_thatWhanAddedEqualsToTargetSum() {
+    public void findPairs_fromTheGivenArray_thatWhenAddedEqualsToTargetSum() {
 
         int targetSum = 6;
         int arr [] = {5,1};
