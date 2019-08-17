@@ -5,6 +5,7 @@ public final class Tuple<T, U> {
     private T t;
     private U u;
 
+
     private Tuple(T t, U u) {
         this.t = t;
         this.u = u;
