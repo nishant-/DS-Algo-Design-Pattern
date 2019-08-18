@@ -1,4 +1,4 @@
-package algo.arrays.misc;
+package hackerrank;
 
 import java.math.BigInteger;
 import java.util.HashMap;

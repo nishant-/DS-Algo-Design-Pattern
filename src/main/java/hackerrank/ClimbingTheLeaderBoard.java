@@ -28,6 +28,37 @@ public class ClimbingTheLeaderBoard {
         return rankArr;
     }
 
+
+    static int[] climbingLeaderboard2(int[] scores, int[] alice) {
+
+        int rankArr[] = new int[alice.length];
+        int c = 0;
+        for(int i = 0; i < alice.length; i++) {
+            int aliceScore = alice[i];
+            int rank = 1;
+            for(int j = 0; j < scores.length - 1; j++) {
+                if(scores[j] != scores[j+1]) {
+                    rank++;
+                }
+                if(aliceScore == scores[j]) {
+                    rankArr[c++] = rank;
+                    break;
+                }
+                else if(aliceScore > scores[j]) {
+                    rankArr[c++] = rank + 1;
+                    break;
+                }
+                else if(aliceScore < scores[j + 1] && j == scores.length -1) {
+                    rankArr[c++] = rank + 1;
+                    break;
+                }
+                else continue;
+            }
+        }
+        return rankArr;
+    }
+
+
     public static Map<Integer,Integer> getRank(int[] arr) {
 
        Map<Integer, Integer> rankMap = new HashMap<>();

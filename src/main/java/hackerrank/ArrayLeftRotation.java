@@ -1,4 +1,4 @@
-package algo.arrays.misc;
+package hackerrank;
 
 import java.io.*;
 import java.math.*;

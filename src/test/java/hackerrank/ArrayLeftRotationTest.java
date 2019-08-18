@@ -1,8 +1,7 @@
-package algo.arrays.misc;
+package hackerrank;
 
+import hackerrank.ArrayLeftRotation;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class ArrayLeftRotationTest {
 

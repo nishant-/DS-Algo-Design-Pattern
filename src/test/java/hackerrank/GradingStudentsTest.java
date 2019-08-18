@@ -1,11 +1,10 @@
-package algo.arrays.misc;
+package hackerrank;
 
+import hackerrank.GradingStudents;
 import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 public class GradingStudentsTest {
 

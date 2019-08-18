@@ -1,8 +1,7 @@
-package algo.arrays.misc;
+package hackerrank;
 
+import hackerrank.LongFactorials;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class LongFactorialsTest {
 

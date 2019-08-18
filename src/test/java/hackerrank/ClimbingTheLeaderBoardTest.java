@@ -26,4 +26,13 @@ public class ClimbingTheLeaderBoardTest {
             System.out.println(i);
         }
     }
+
+    @Test
+    public void climbingLeaderboard2() {
+
+        int a[] = ClimbingTheLeaderBoard.climbingLeaderboard2(new int[] {100}, new int[]{500});
+        for (int i:a) {
+            System.out.println(i);
+        }
+    }
 }
