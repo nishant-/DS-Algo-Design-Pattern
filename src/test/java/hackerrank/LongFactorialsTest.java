@@ -1,6 +1,6 @@
 package hackerrank;
 
-import hackerrank.LongFactorials;
+import hackerrank.problem.solving.LongFactorials;
 import org.junit.Test;
 
 public class LongFactorialsTest {

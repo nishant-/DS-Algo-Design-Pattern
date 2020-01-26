@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.problem.solving;
 
 import java.io.*;
 import java.math.*;
@@ -11,7 +11,7 @@ import java.util.regex.*;
 public class RepeatedString {
 
     // Complete the repeatedString function below.
-    static long repeatedString(String s, long n) {
+    public static long repeatedString(String s, long n) {
 
         int length = s.length();
         long q = n / length;

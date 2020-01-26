@@ -1,6 +1,6 @@
 package hackerrank;
 
-import hackerrank.Pairs;
+import hackerrank.problem.solving.Pairs;
 import org.junit.Test;
 
 public class PairsTest {

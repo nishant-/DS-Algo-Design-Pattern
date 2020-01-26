@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.problem.solving;
 
 import java.io.*;
 import java.math.*;
@@ -11,7 +11,7 @@ import java.util.regex.*;
 public class ArrayLeftRotation {
 
     // Complete the rotLeft function below.
-    static int[] rotLeft(int[] a, int d) {
+   public static int[] rotLeft(int[] a, int d) {
         d = d % a.length;
         for(int i = 0; i < d; i++) {
             int first = a[0];

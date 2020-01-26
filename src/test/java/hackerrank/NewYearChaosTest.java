@@ -1,6 +1,6 @@
 package hackerrank;
 
-import hackerrank.NewYearChaos;
+import hackerrank.problem.solving.NewYearChaos;
 import org.junit.Test;
 
 public class NewYearChaosTest {

@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.problem.solving;
 
 import java.io.*;
 import java.math.*;
@@ -11,7 +11,7 @@ import java.util.regex.*;
 public class UtopianTree {
 
     // Complete the utopianTree function below.
-    static int utopianTree(int n) {
+    public static int utopianTree(int n) {
 
         int height = 1;
         for(int i = 1; i <= n; i++) {

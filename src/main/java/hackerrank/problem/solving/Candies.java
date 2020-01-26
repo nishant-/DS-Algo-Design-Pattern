@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.problem.solving;
 
 import java.io.*;
 import java.math.*;
@@ -11,7 +11,7 @@ import java.util.regex.*;
 public class Candies {
 
     // Complete the candies function below.
-    static long candies(int n, int[] arr) {
+    public static long candies(int n, int[] arr) {
 
         Map<Integer, Long> posCandyMap = new LinkedHashMap<>();
         for(int i = 0; i < arr.length; i++) {

@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.problem.solving;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -9,7 +9,7 @@ public class ClimbingTheLeaderBoard {
 
 
     // Complete the climbingLeaderboard function below.
-    static int[] climbingLeaderboard(int[] scores, int[] alice) {
+    public static int[] climbingLeaderboard(int[] scores, int[] alice) {
 
         int rankArr[] = new int[alice.length];
         int c = 0;
@@ -29,7 +29,7 @@ public class ClimbingTheLeaderBoard {
     }
 
 
-    static int[] climbingLeaderboard2(int[] scores, int[] alice) {
+    public static int[] climbingLeaderboard2(int[] scores, int[] alice) {
 
         int rankArr[] = new int[alice.length];
         int c = 0;

@@ -1,6 +1,6 @@
 package hackerrank;
 
-import hackerrank.UtopianTree;
+import hackerrank.problem.solving.UtopianTree;
 import org.junit.Test;
 
 public class UtopianTreeTest {

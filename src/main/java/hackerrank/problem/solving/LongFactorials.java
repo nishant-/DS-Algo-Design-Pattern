@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.problem.solving;
 
 import java.math.BigInteger;
 import java.util.HashMap;
@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class LongFactorials {
 
     // Complete the extraLongFactorials function below.
-    static void extraLongFactorials(int n) {
+    public static void extraLongFactorials(int n) {
 
         Map<Integer, BigInteger> map = new HashMap<>();
         map.put(0,BigInteger.ONE);

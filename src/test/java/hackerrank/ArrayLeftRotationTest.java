@@ -1,6 +1,6 @@
 package hackerrank;
 
-import hackerrank.ArrayLeftRotation;
+import hackerrank.problem.solving.ArrayLeftRotation;
 import org.junit.Test;
 
 public class ArrayLeftRotationTest {

@@ -1,8 +1,7 @@
 package hackerrank;
 
+import hackerrank.problem.solving.RepeatedString;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class RepeatedStringTest {
 

@@ -1,347 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9382d5d7-85e9-4854-abe7-05aeba66cc47" name="Default Changelist" comment="singly linked list">
+    <list default="true" id="9382d5d7-85e9-4854-abe7-05aeba66cc47" name="Default Changelist" comment="common">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackerrank/java/JavaComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackerrank/java/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/MaxPerimeterTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/MinimumSwaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hackerrank/MarcCakeWalk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hackerrank/MarcCakeWalkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hackerrank/MaxPerimeterTriangleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/ArrayLeftRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/ArrayLeftRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/Candies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/Candies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/ClimbingTheLeaderBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/ClimbingTheLeaderBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/GradingStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/GradingStudents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/HowManySubstrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/HowManySubstrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/LongFactorials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/LongFactorials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/MarkAndToys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/MarkAndToys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/MinimumAbsoluteDifferenceInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/MinimumAbsoluteDifferenceInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/NewYearChaos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/NewYearChaos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/Pairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/Pairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/PriyankaAndToys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/PriyankaAndToys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/RepeatedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/RepeatedString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/UtopianTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/UtopianTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hackerrank/ArrayLeftRotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hackerrank/ArrayLeftRotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hackerrank/CandiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hackerrank/CandiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hackerrank/ClimbingTheLeaderBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hackerrank/ClimbingTheLeaderBoardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hackerrank/GradingStudentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hackerrank/GradingStudentsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hackerrank/HowManySubstringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hackerrank/HowManySubstringsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hackerrank/LongFactorialsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hackerrank/LongFactorialsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hackerrank/MarkAndToysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hackerrank/MarkAndToysTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hackerrank/NewYearChaosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hackerrank/NewYearChaosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hackerrank/PairsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hackerrank/PairsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hackerrank/PriyankaAndToysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hackerrank/PriyankaAndToysTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hackerrank/RepeatedStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hackerrank/RepeatedStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hackerrank/UtopianTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hackerrank/UtopianTreeTest.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algo/arrays/sorting/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/algo/arrays/sorting/MergeSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/algo/arrays/searching/LinearSearchTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algo/arrays/searching/BinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/algo/arrays/searching/BinarySearchTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ds/SinglyLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="75" column="20" lean-forward="true" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
-              <folding>
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ds/SinglyLinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/com/sun/istack/internal/NotNull.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-              <folding>
-                <element signature="e#0#518#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sort</find>
+      <find>equals</find>
+      <find>list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/algo/arrays/searching/LinearSearch.java" />
-        <option value="$PROJECT_DIR$/src/test/java/algo/arrays/searching/test/LinearSearchTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/algo/arrays/sorting/MergeSortWorking.java" />
-        <option value="$PROJECT_DIR$/src/test/java/algo/arrays/searching/LinearSearchTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algo/arrays/searching/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/test/java/algo/arrays/sorting/MergeSortTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/algo/arrays/searching/BinarySearchTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algo/arrays/sorting/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ds/SinglyLinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ds/SinglyLinkedList.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="DS-Algo-DP" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="DS-Algo-DP" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DS-Algo-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-Algo-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Algo-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-Algo-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Algo-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-Algo-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Algo-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-Algo-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Algo-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-Algo-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Algo-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-Algo-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Algo-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-Algo-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="searching" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Algo-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-Algo-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Algo-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-Algo-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Algo-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-Algo-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Algo-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-Algo-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Algo-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-Algo-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Algo-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-Algo-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="searching" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Algo-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-Algo-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DS-Algo-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-Algo-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ds" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1W9fdrjwkWUC5sLc3jmG3J9TLhy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/patterns/structural" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="ds" />
-      <recent name="algo.arrays.searching" />
-      <recent name="algo.arrays.sorting" />
-      <recent name="algo.arrays.searching.test" />
+      <recent name="hackerrank" />
+      <recent name="algo.arrays.misc" />
+      <recent name="dynamicprogramming" />
+      <recent name="common" />
+      <recent name="patterns.structural.flyweight" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="hackerrank" />
+      <recent name="patterns" />
+      <recent name="patterns.creational" />
       <recent name="algo.arrays" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="patterns.structural.flyweight.solution" />
+      <recent name="patterns.structural.flyweight" />
+      <recent name="patterns.behavioral.template" />
+      <recent name="patterns.creational.abstractfactory" />
+      <recent name="patterns.creational.factory" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="patterns.proxy" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.SinglyLinkedList">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.arrays.searching.BinarySearch" />
+  <component name="RunManager" selected="Application.JavaComparator">
+    <configuration name="JavaComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.java.JavaComparator" />
       <module name="DS-Algo-Design-Pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algo.arrays.searching.*" />
+          <option name="PATTERN" value="hackerrank.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,78 +151,97 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.arrays.sorting.MergeSort" />
+    <configuration name="CandiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DS-Algo-Design-Pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algo.arrays.sorting.*" />
+          <option name="PATTERN" value="hackerrank.problem.solving.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ds.SinglyLinkedList" />
-      <module name="DS-Algo-Design-Pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ds.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DS-Algo-Design-Pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algo.arrays.searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algo.arrays.searching" />
-      <option name="MAIN_CLASS_NAME" value="algo.arrays.searching.BinarySearchTest" />
+      <option name="PACKAGE_NAME" value="hackerrank" />
+      <option name="MAIN_CLASS_NAME" value="hackerrank.CandiesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearchTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CandiesTest.candies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DS-Algo-Design-Pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algo.arrays.searching.*" />
+          <option name="PATTERN" value="hackerrank.problem.solving.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algo.arrays.searching" />
-      <option name="MAIN_CLASS_NAME" value="algo.arrays.searching.LinearSearchTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="hackerrank" />
+      <option name="MAIN_CLASS_NAME" value="hackerrank.CandiesTest" />
+      <option name="METHOD_NAME" value="candies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarcCakeWalkTest.marcsCakewalk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DS-Algo-Design-Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hackerrank.problem.solving.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hackerrank" />
+      <option name="MAIN_CLASS_NAME" value="hackerrank.MarcCakeWalkTest" />
+      <option name="METHOD_NAME" value="marcsCakewalk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxPerimeterTriangleTest.maximumPerimeterTriangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DS-Algo-Design-Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hackerrank.problem.solving.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hackerrank" />
+      <option name="MAIN_CLASS_NAME" value="hackerrank.MaxPerimeterTriangleTest" />
+      <option name="METHOD_NAME" value="maximumPerimeterTriangle" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.BinarySearch" />
-      <item itemvalue="Application.SinglyLinkedList" />
-      <item itemvalue="JUnit.LinearSearchTest (1)" />
-      <item itemvalue="JUnit.BinarySearchTest" />
+      <item itemvalue="Application.JavaComparator" />
+      <item itemvalue="JUnit.CandiesTest.candies" />
+      <item itemvalue="JUnit.CandiesTest" />
+      <item itemvalue="JUnit.MarcCakeWalkTest.marcsCakewalk" />
+      <item itemvalue="JUnit.MaxPerimeterTriangleTest.maximumPerimeterTriangle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SinglyLinkedList" />
-        <item itemvalue="JUnit.BinarySearchTest" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="JUnit.LinearSearchTest (1)" />
+        <item itemvalue="Application.JavaComparator" />
+        <item itemvalue="JUnit.MaxPerimeterTriangleTest.maximumPerimeterTriangle" />
+        <item itemvalue="JUnit.MarcCakeWalkTest.marcsCakewalk" />
+        <item itemvalue="JUnit.CandiesTest.candies" />
+        <item itemvalue="JUnit.CandiesTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -433,7 +254,58 @@
       <workItem from="1560034837588" duration="15473000" />
       <workItem from="1560054383753" duration="67000" />
       <workItem from="1560071588230" duration="13889000" />
-      <workItem from="1560113386804" duration="3853000" />
+      <workItem from="1560113386804" duration="3956000" />
+      <workItem from="1560117436414" duration="721000" />
+      <workItem from="1560141403362" duration="3457000" />
+      <workItem from="1560152842592" duration="1660000" />
+      <workItem from="1560159216849" duration="22000" />
+      <workItem from="1560178201452" duration="1068000" />
+      <workItem from="1560179408059" duration="1084000" />
+      <workItem from="1560247467106" duration="126000" />
+      <workItem from="1560335374598" duration="502000" />
+      <workItem from="1560370117236" duration="1354000" />
+      <workItem from="1560433341655" duration="1679000" />
+      <workItem from="1560453771647" duration="48000" />
+      <workItem from="1561256747823" duration="5883000" />
+      <workItem from="1561370976479" duration="45000" />
+      <workItem from="1562966875086" duration="752000" />
+      <workItem from="1563075243502" duration="3032000" />
+      <workItem from="1563086520287" duration="6128000" />
+      <workItem from="1563217883196" duration="32000" />
+      <workItem from="1564048608462" duration="5122000" />
+      <workItem from="1564053777628" duration="6207000" />
+      <workItem from="1564130673493" duration="12037000" />
+      <workItem from="1564178051549" duration="1940000" />
+      <workItem from="1564181404837" duration="26000" />
+      <workItem from="1564189920470" duration="8194000" />
+      <workItem from="1564296336263" duration="6312000" />
+      <workItem from="1565172193701" duration="12000000" />
+      <workItem from="1565486993819" duration="4323000" />
+      <workItem from="1565495976010" duration="3760000" />
+      <workItem from="1565577472627" duration="649000" />
+      <workItem from="1565661601257" duration="12741000" />
+      <workItem from="1565676204657" duration="251000" />
+      <workItem from="1565679215416" duration="16423000" />
+      <workItem from="1565767765372" duration="1388000" />
+      <workItem from="1565931382136" duration="287000" />
+      <workItem from="1565935359204" duration="20540000" />
+      <workItem from="1565971632042" duration="12938000" />
+      <workItem from="1566029219393" duration="2611000" />
+      <workItem from="1566032742378" duration="5407000" />
+      <workItem from="1566092711202" duration="566000" />
+      <workItem from="1566096665067" duration="5561000" />
+      <workItem from="1566143669661" duration="8949000" />
+      <workItem from="1566190627290" duration="4348000" />
+      <workItem from="1566200928930" duration="8022000" />
+      <workItem from="1566393636102" duration="6006000" />
+      <workItem from="1566903340026" duration="2977000" />
+      <workItem from="1578566876911" duration="938000" />
+      <workItem from="1579511549271" duration="4335000" />
+      <workItem from="1579862561020" duration="599000" />
+      <workItem from="1579899027932" duration="3224000" />
+      <workItem from="1579955056086" duration="1709000" />
+      <workItem from="1579992449418" duration="316000" />
+      <workItem from="1580026641905" duration="2084000" />
     </task>
     <task id="LOCAL-00001" summary="linear search implemented, closes #1">
       <created>1559967139561</created>
@@ -470,98 +342,141 @@
       <option name="project" value="LOCAL" />
       <updated>1560117103358</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implemented poll method and isEmpty methods">
+      <created>1560142229739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560142229739</updated>
+    </task>
+    <task id="LOCAL-00007" summary="stack impl">
+      <created>1560159048553</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560159048553</updated>
+    </task>
+    <task id="LOCAL-00008" summary="implemented firstlast method in linked list">
+      <created>1560178890840</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560178890840</updated>
+    </task>
+    <task id="LOCAL-00009" summary="proxy pattern example">
+      <created>1563087927782</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563087927782</updated>
+    </task>
+    <task id="LOCAL-00010" summary="command pattern">
+      <created>1563102400558</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563102400558</updated>
+    </task>
+    <task id="LOCAL-00011" summary="linked list">
+      <created>1564055435087</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564055435087</updated>
+    </task>
+    <task id="LOCAL-00012" summary="common">
+      <created>1564088081522</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564088081522</updated>
+    </task>
+    <task id="LOCAL-00013" summary="common">
+      <created>1564139672833</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1564139672833</updated>
+    </task>
+    <task id="LOCAL-00014" summary="common">
+      <created>1564140721052</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1564140721052</updated>
+    </task>
+    <task id="LOCAL-00015" summary="common">
+      <created>1564141484583</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1564141484583</updated>
+    </task>
+    <task id="LOCAL-00016" summary="common">
+      <created>1564141638919</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1564141638919</updated>
+    </task>
+    <task id="LOCAL-00017" summary="common">
+      <created>1564210455711</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1564210455711</updated>
+    </task>
+    <task id="LOCAL-00018" summary="singleton">
+      <created>1564211316713</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1564211316713</updated>
+    </task>
+    <task id="LOCAL-00019" summary="common">
+      <created>1564211534194</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1564211534194</updated>
+    </task>
+    <task id="LOCAL-00020" summary="common">
+      <created>1564301411642</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1564301411642</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added two sum problem">
+      <created>1565496801271</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1565496801271</updated>
+    </task>
+    <task id="LOCAL-00022" summary="refactor">
+      <created>1565531310976</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1565531310976</updated>
+    </task>
+    <task id="LOCAL-00023" summary="common">
+      <created>1566029301858</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1566029301858</updated>
+    </task>
+    <task id="LOCAL-00024" summary="common">
+      <created>1566206690331</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1566206690331</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="LinearSearchTest_secondMatchedItemIsNotReturned - 2019.06.08 at 13h 18m 11s.xml">
-      <configuration name="LinearSearchTest.secondMatchedItemIsNotReturned" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinearSearchTest - 2019.06.08 at 13h 18m 18s.xml">
-      <configuration name="LinearSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinearSearchTest_(1) - 2019.06.08 at 14h 17m 06s.xml">
-      <configuration name="LinearSearchTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinearSearchTest_(1) - 2019.06.08 at 14h 17m 31s.xml">
-      <configuration name="LinearSearchTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinearSearchTest_(1) - 2019.06.08 at 14h 18m 22s.xml">
-      <configuration name="LinearSearchTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinearSearchTest_(1) - 2019.06.09 at 12h 18m 15s.xml">
-      <configuration name="LinearSearchTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinearSearchTest_(1) - 2019.06.09 at 12h 19m 11s.xml">
-      <configuration name="LinearSearchTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTest - 2019.06.09 at 21h 46m 52s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTest - 2019.06.10 at 00h 13m 37s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTest - 2019.06.10 at 00h 14m 17s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40785000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25586677" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32993197" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5015129" side_tool="true" weight="0.32993197" />
-      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.49924356" weight="0.32993197" />
-      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49848714" visible="true" weight="0.25170067" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.3962585" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="right" id="TCPMON" order="6" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.25586677" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32993197" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5015129" side_tool="true" weight="0.32993197" />
-      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.49924356" weight="0.32993197" />
-      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49848714" visible="true" weight="0.33843538" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.3962585" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="right" id="TCPMON" order="6" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -572,363 +487,136 @@
     <MESSAGE value="made" />
     <MESSAGE value="added gitignore." />
     <MESSAGE value="singly linked list add, delete and display methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="singly linked list add, delete and display methods" />
+    <MESSAGE value="implemented poll method and isEmpty methods" />
+    <MESSAGE value="stack impl" />
+    <MESSAGE value="implemented firstlast method in linked list" />
+    <MESSAGE value="proxy pattern example" />
+    <MESSAGE value="command pattern" />
+    <MESSAGE value="linked list" />
+    <MESSAGE value="singleton" />
+    <MESSAGE value="added two sum problem" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="common" />
+    <option name="LAST_COMMIT_MESSAGE" value="common" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1579901893419">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579901893419" />
+    <state x="16" y="0" key="CommitChangelistDialog2" timestamp="1580029660333">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="16" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580029660333" />
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1579992772425">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579992772425" />
+    <state width="655" height="61" key="GridCell.Tab.0.bottom" timestamp="1579909068837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="655" height="61" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579909068837" />
+    <state width="655" height="61" key="GridCell.Tab.0.center" timestamp="1579909068837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="655" height="61" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579909068837" />
+    <state width="655" height="61" key="GridCell.Tab.0.left" timestamp="1579909068837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="655" height="61" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579909068837" />
+    <state width="655" height="61" key="GridCell.Tab.0.right" timestamp="1579909068837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="655" height="61" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579909068837" />
+    <state x="263" y="100" key="IDE.errors.dialog" timestamp="1579768613623">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="100" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1579768613623" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1579511943266">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579511943266" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1579992504812">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579992504812" />
+    <state x="65" y="0" key="new project wizard" timestamp="1579773300936">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1579773300936" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580026657839">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580026657839" />
   </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="targetArray[numberOfItemsToBeCopied]" language="JAVA" />
-        <watch expression="targetArray[numberOfItemsToBeCopied]" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/common/CeaserCipherTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/ClimbingTheLeaderBoard.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/HowManySubstrings.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/NewYearChaos.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/hackerrank/UtopianTreeTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/hackerrank/PairsTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/hackerrank/MarkAndToysTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/hackerrank/PriyankaAndToysTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/hackerrank/CandiesTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/hackerrank/MaxPerimeterTriangleTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hackerrank/problem/solving/MaxPerimeterTriangle.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/algo.arrays.searching.LinearSearchTest.txt" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algo/arrays/searching/LinearSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="1364" column="24" selection-start-line="1364" selection-start-column="14" selection-end-line="1364" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="394" column="20" lean-forward="true" selection-start-line="394" selection-start-column="20" selection-end-line="394" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-466">
-          <caret line="143" column="7" lean-forward="true" selection-start-line="143" selection-start-column="7" selection-end-line="143" selection-end-column="7" />
-          <folding>
-            <element signature="e#5644#5645#0" expanded="true" />
-            <element signature="e#5675#5676#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="1214" column="15" selection-start-line="1214" selection-start-column="15" selection-end-line="1214" selection-end-column="15" />
-          <folding>
-            <element signature="e#46394#46395#0" expanded="true" />
-            <element signature="e#46458#46459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="488" lean-forward="true" selection-start-line="488" selection-end-line="488" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="149" selection-start-line="149" selection-end-line="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Comparators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="1238" selection-start-line="1238" selection-end-line="1238" />
-          <folding>
-            <element signature="e#22786#22787#0" expanded="true" />
-            <element signature="e#22821#22822#0" expanded="true" />
-            <element signature="e#47602#47603#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/WinNTFileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="633" selection-start-line="633" selection-end-line="633" />
-          <folding>
-            <element signature="e#21902#21903#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2111" selection-start-line="2111" selection-end-line="2111" />
-          <folding>
-            <element signature="e#89537#89538#0" expanded="true" />
-            <element signature="e#89586#89587#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="555" selection-start-line="555" selection-end-line="555" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/misc/MetaIndex.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#583#584#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/misc/URLClassPath.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5253">
-          <caret line="364" selection-start-line="364" selection-end-line="364" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3995">
-          <caret line="258" selection-start-line="258" selection-end-line="258" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8228">
-          <caret line="533" selection-start-line="533" selection-end-line="533" />
-          <folding>
-            <element signature="e#18578#18579#0" expanded="true" />
-            <element signature="e#18620#18621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/invoke/MethodHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6715">
-          <caret line="420" selection-start-line="420" selection-end-line="420" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/invoke/MemberName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/invoke/MethodHandleNatives.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="713" selection-start-line="713" selection-end-line="713" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/algo/arrays/sorting/MergeSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/algo/arrays/searching/LinearSearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algo/arrays/searching/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/algo/arrays/searching/BinarySearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/com/sun/istack/internal/NotNull.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#518#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algo/arrays/sorting/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ds/SinglyLinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/SinglyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="75" column="20" lean-forward="true" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>targetArray[numberOfItemsToBeCopied]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
 </project>

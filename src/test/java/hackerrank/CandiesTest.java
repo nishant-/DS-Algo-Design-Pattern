@@ -1,8 +1,7 @@
 package hackerrank;
 
+import hackerrank.problem.solving.Candies;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class CandiesTest {
 

@@ -7,25 +7,21 @@ import java.text.*;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
+import java.util.stream.Collectors;
 
-public class PriyankaAndToys {
+public class MarcCakeWalk {
 
-    // Complete the toys function below.
-    static int toys(int[] w) {
+    // Complete the marcsCakewalk function below.
+    static long marcsCakewalk(int[] calorie) {
 
-        Arrays.sort(w);
-        int i = 0;
-        int sum = w[i] + 4;
-        int c = 1;
-
-        for(int j = 0; j < w.length; j++) {
-            if(w[j] > sum) {
-                c++;
-                i = j;
-                sum = w[i] + 4;
-            }
+        Arrays.sort(calorie);
+        long miles = 0L;
+        int j = 0;
+        for(int i = calorie.length - 1; i >= 0; i--) {
+            miles = miles + (long)Math.pow(2, j)*calorie[i];
+            j++;
         }
-        return c;
+        return  miles;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
@@ -36,17 +32,17 @@ public class PriyankaAndToys {
         int n = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        int[] w = new int[n];
+        int[] calorie = new int[n];
 
-        String[] wItems = scanner.nextLine().split(" ");
+        String[] calorieItems = scanner.nextLine().split(" ");
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
         for (int i = 0; i < n; i++) {
-            int wItem = Integer.parseInt(wItems[i]);
-            w[i] = wItem;
+            int calorieItem = Integer.parseInt(calorieItems[i]);
+            calorie[i] = calorieItem;
         }
 
-        int result = toys(w);
+        long result = marcsCakewalk(calorie);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();

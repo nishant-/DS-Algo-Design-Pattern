@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.problem.solving;
 
 import java.io.*;
 import java.math.*;
@@ -11,7 +11,7 @@ import java.util.regex.*;
 public class MarkAndToys {
 
     // Complete the maximumToys function below.
-    static int maximumToys(int[] prices, int k) {
+    public static int maximumToys(int[] prices, int k) {
 
         Arrays.sort(prices);
         int toyCount = 0;

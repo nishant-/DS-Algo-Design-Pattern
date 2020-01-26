@@ -1,6 +1,6 @@
 package hackerrank;
 
-import hackerrank.GradingStudents;
+import hackerrank.problem.solving.GradingStudents;
 import org.junit.Test;
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.problem.solving;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -10,7 +10,7 @@ public class HowManySubstrings {
     /*
      * Complete the countSubstrings function below.
      */
-    static int[] countSubstrings(String s, int[][] queries) {
+   public static int[] countSubstrings(String s, int[][] queries) {
 
         List<Integer> aList = new ArrayList<>();
         Map<String, Integer> map = new HashMap<>();

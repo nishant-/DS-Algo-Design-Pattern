@@ -1,10 +1,10 @@
-package hackerrank;
+package hackerrank.problem.solving;
 
 import java.util.Scanner;
 
 public class NewYearChaos {
     // Complete the minimumBribes function below.
-    static void minimumBribes(int[] q) {
+    public static void minimumBribes(int[] q) {
 
         int lastIndex = q.length - 1;
         int sCount = 0;
