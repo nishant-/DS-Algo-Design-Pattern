@@ -15,6 +15,8 @@ public class TestBtree {
         btree.inOrderTraversal();
         System.out.println(btree.nodeCount());
 
+        System.out.println(btree.countLeftNodes());
+
 
 
     }

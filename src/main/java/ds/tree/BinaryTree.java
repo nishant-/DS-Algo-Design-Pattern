@@ -90,5 +90,21 @@ public class BinaryTree<T extends Comparable<T>> {
     }
 
 
+    public int countLeftNodes() {
+        BTNode<T> node = this.getRootNode();
+        return countLeftNodes(node);
+    }
+
+    private int countLeftNodes(BTNode<T> node) {
+
+      int count = 0;
+      if(node.leftChild != null) {
+          count =  (count + 1) + countLeftNodes(node.leftChild);
+      }
+      if(node.rightChild != null) {
+          count = count + countLeftNodes(node.rightChild);
+      }
+      return count;
+    }
 
 }
