@@ -80,13 +80,13 @@ public class BinaryTree<T extends Comparable<T>> {
     }
 
     //returns total number of nodes in a tree
-    public int size() {
-        return size(this.getRootNode());
+    public int nodeCount() {
+        return nodeCount(this.getRootNode());
     }
 
-    private int size(BTNode<T> node) {
+    private int nodeCount(BTNode<T> node) {
 
-        return (node == null) ? 0 : (size(node.rightChild) + size(node.leftChild) + 1);
+        return (node == null) ? 0 : (nodeCount(node.rightChild) + nodeCount(node.leftChild) + 1);
     }
 
 

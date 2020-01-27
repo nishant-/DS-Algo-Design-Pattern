@@ -13,7 +13,7 @@ public class TestBtree {
 
 
         btree.inOrderTraversal();
-        System.out.println(btree.size());
+        System.out.println(btree.nodeCount());
 
 
 
