@@ -33,9 +33,6 @@ public class BigSorting {
         return unsorted;
     }
 
-
-
-
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
