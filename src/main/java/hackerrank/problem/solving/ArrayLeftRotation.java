@@ -1,5 +1,4 @@
 package hackerrank.problem.solving;
-
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -10,24 +9,36 @@ import java.util.regex.*;
 
 public class ArrayLeftRotation {
 
-    // Complete the rotLeft function below.
-   public static int[] rotLeft(int[] a, int d) {
-        d = d % a.length;
-        for(int i = 0; i < d; i++) {
-            int first = a[0];
-            for(int j = 1; j < a.length; j++) {
-                a[j-1] = a[j];
-            }
-            a[a.length - 1] = first;
+
+
+    public static int[] leftRotate(int d, int arr[]) {
+
+        d = d % arr.length;
+
+        if (d == 0) {
+            return arr;
         }
-        return a;
+
+        int t[] = new int[arr.length];
+
+
+        int c = 0;
+        for(int j = d; j < arr.length; j++) {
+            t[c++] = arr[j];
+        }
+
+        for(int j = 0; j < d; j++) {
+            t[c++] = arr[j];
+        }
+
+        return t;
     }
+
+
 
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) throws IOException {
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
-
+    public static void main(String[] args) {
         String[] nd = scanner.nextLine().split(" ");
 
         int n = Integer.parseInt(nd[0]);
@@ -44,20 +55,18 @@ public class ArrayLeftRotation {
             a[i] = aItem;
         }
 
-        int[] result = rotLeft(a, d);
+        scanner.close();
 
-        for (int i = 0; i < result.length; i++) {
-            bufferedWriter.write(String.valueOf(result[i]));
-
-            if (i != result.length - 1) {
-                bufferedWriter.write(" ");
+        int arr[] = leftRotate(d, a);
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < arr.length; i++) {
+            if(i == arr.length - 1) {
+                sb.append(arr[i]);
+            }
+            else {
+                sb.append(arr[i] + " ");
             }
         }
-
-        bufferedWriter.newLine();
-
-        bufferedWriter.close();
-
-        scanner.close();
+        System.out.println(sb.toString());
     }
 }

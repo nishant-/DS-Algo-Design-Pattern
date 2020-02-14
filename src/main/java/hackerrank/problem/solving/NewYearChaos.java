@@ -3,51 +3,37 @@ package hackerrank.problem.solving;
 import java.util.Scanner;
 
 public class NewYearChaos {
+
     // Complete the minimumBribes function below.
     public static void minimumBribes(int[] q) {
 
-        int lastIndex = q.length - 1;
-        int sCount = 0;
-        int diff = 0;
-        for(int i = lastIndex; i >= 0; i--) {
-            diff = 0;
-            int difPos[] = findDiffPos(q, lastIndex);
-            if(difPos[0] == -1) {
-                System.out.println("Too chaotic");
-                return;
-            }
-            else {
-                 diff = difPos[0];
-                int pos = difPos[1];
+        int bribes = 0;
+        for(int i = q.length - 1; i >= 0; i--) {
 
-                for (int k = 0; k < diff; k++) {
-                    int tmp = q[pos];
-                    q[pos] = q[pos + 1];
-                    q[pos + 1] = tmp;
-                    pos++;
+            if(q[i] != (i + 1)) {
+                if(i - 1 >= 0 && q[i - 1] == (i + 1)) {
+                    bribes++;
+                    swap(q, i, i - 1);
                 }
-                sCount = sCount + diff;
+                else if(i - 2 >=0 && q[i - 2] == (i + 1)) {
+                    bribes +=2;
+                    swap(q, i-2, i-1);
+                    swap(q, i-1, i);
+                }
+                else {
+                    System.out.println("Too chaotic");
+                    return;
+                }
             }
         }
-        System.out.println(sCount);
+        System.out.println(bribes);
+
     }
 
-    private static int[] findDiffPos(int[] q, int lastIndex) {
-
-        int arr[] = new int[2];
-        int diff = 0;
-        int index = -1;
-        for(int i = lastIndex; i >= 0; i--) {
-            diff = q[i] - (i + 1);
-            if(diff > 2) {
-                return new int[]{-1, -1};
-            }
-            if(diff > 0) {
-                index = i;
-                break;
-            }
-        }
-        return new int[] {diff, index};
+    private static void swap(int[] arr, int a, int b) {
+        int temp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = temp;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
