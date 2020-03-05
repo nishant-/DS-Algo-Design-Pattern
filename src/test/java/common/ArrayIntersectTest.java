@@ -17,7 +17,7 @@ public class ArrayIntersectTest {
         ArrayIntersect arrayIntersect = new ArrayIntersect();
         List<Integer> aList = arrayIntersect.find(a,b);
 
-        aList.equals(Arrays.asList(2,5));
+        assertTrue(aList.equals(Arrays.asList(2,5)));
     }
 
 }
