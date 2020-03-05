@@ -11,8 +11,11 @@ package common;
  *
  */
 
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Optional;
+import java.util.stream.IntStream;
 
 public class FirstNonRepeatingCharacter {
 
@@ -21,24 +24,21 @@ public class FirstNonRepeatingCharacter {
         System.out.println(find("aabccdddeeeffgxxx")); // prints b
         System.out.println(find("xiijjaccc")); // prints x
         System.out.println(find("aabbccddeeffgg")); // prints not found
-
     }
-
 
     public static String find(String s) {
 
         Map<Character, Integer> charCount = new LinkedHashMap<>();
-        String nonRepChar = "Not found";
-        for(int i = 0; i < s.length(); i++) {
+       for(int i = 0; i < s.length(); i++) {
             charCount.compute(s.charAt(i), (k, v) -> (v == null) ? 1 : v + 1);
         }
-        for(Map.Entry<Character, Integer> entry : charCount.entrySet()) {
-            if(entry.getValue() == 1) {
-                nonRepChar = String.valueOf(entry.getKey());
-                return nonRepChar;
-            }
-        }
-        return nonRepChar;
+
+        Optional<String> first = charCount.entrySet().stream().
+                filter(x -> x.getValue() == 1).
+                map(x -> String.valueOf(x.getKey())).
+                findFirst();
+
+        return first.orElseGet(() -> "Not found");
     }
 
 }
