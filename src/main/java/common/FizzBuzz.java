@@ -1,28 +1,14 @@
 package common;
 
 
-import java.util.stream.Stream;
+import java.util.stream.IntStream;
 
 public class FizzBuzz {
 
     public static void main(String[] args) {
 
-        Stream<Integer> intStream = Stream.iterate(1 , x -> x + 1 ).limit(100);
-
-        intStream.forEach(x -> {
-            if(x % 15 == 0) {
-                System.out.println("FizzBuzz");
-            }
-            else if(x % 5 == 0) {
-                System.out.println("Buzz");
-            }
-            else if(x % 3 == 0) {
-                System.out.println("Fizz");
-            }
-            else {
-                System.out.println(x);
-            }
-        });
-
+        IntStream.rangeClosed(1, 100)
+                .mapToObj(x -> x % 15 == 0 ? "FizzBuzz" : x % 5 == 0 ? "Buzz" : x % 3 == 0 ? "Fizz" : x)
+                .forEach(System.out::println);
     }
 }
