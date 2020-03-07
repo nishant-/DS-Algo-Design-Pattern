@@ -25,7 +25,7 @@ public class ObjectiveSpaceCraft implements Visitor {
     @Override
     public void visit(Earth earth) {
         System.out.println("Objective spacecraft visiting earth to " + this.objective);
-        if(this.objective == "Deploy Bots") {
+        if("Deploy Bots".equals(this.objective)) {
             System.out.println("Abort immediately...");
             return;
         }
