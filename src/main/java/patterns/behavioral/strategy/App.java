@@ -17,9 +17,11 @@ public class App {
 
         Robot bot = new Robot(() -> RoboStrategy.DEFENSIVE);
         bot.move();
+
         System.out.println("Updating strategy to Aggressive");
         bot.setRobotMoveStrategy(() -> RoboStrategy.AGGRESIVE);
         bot.move();
+
         System.out.println("Updating strategy to Lazy");
         bot.setRobotMoveStrategy(() -> RoboStrategy.LAZY);
         bot.move();
