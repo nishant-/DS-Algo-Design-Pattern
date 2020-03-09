@@ -1,7 +1,8 @@
 package algo.common;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.gen5.api.Test;
+
+import static org.junit.gen5.api.Assertions.assertTrue;
 
 public class AnagramsTest {
 
@@ -14,10 +15,12 @@ public class AnagramsTest {
         String s2 = "cba";
 
 
-
-        Assert.assertTrue(anagrams.check(s1,s2));
+        assertTrue(anagrams.check(s1,s2));
 
 
     }
 
+    @org.junit.jupiter.api.Test
+    void check() {
+    }
 }

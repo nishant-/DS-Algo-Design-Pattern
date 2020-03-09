@@ -1,9 +1,9 @@
 package patterns.behavioral.template;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.gen5.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.gen5.api.Assertions.assertTrue;
+
 
 public class DataRendererTest {
 
@@ -11,14 +11,14 @@ public class DataRendererTest {
     public void testXMLDataRenderer(){
         DataRenderer renderer = new XMLDataRenderer();
         String retVal = renderer.render();
-        Assert.assertTrue(retVal.contains("XML"));
+        assertTrue(retVal.contains("XML"));
     }
 
     @Test
     public void testCSVDataRenderer(){
         DataRenderer renderer = new CSVDataRenderer();
         String retVal = renderer.render();
-        Assert.assertTrue(retVal.contains("csv"));
+        assertTrue(retVal.contains("csv"));
     }
 
 }

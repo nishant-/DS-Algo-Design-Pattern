@@ -11,11 +11,9 @@ package algo.common;
  *
  */
 
-import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Optional;
-import java.util.stream.IntStream;
 
 public class FirstNonRepeatingCharacter {
 

@@ -1,10 +1,12 @@
 package algo.dynamicprogramming;
 
-import org.junit.Assert;
-import org.junit.Test;
+
+import org.junit.gen5.api.Test;
 import util.Tuple;
 
 import java.util.List;
+
+import static org.junit.gen5.api.Assertions.assertEquals;
 
 public class TwoSumProblemTest {
 
@@ -18,7 +20,7 @@ public class TwoSumProblemTest {
         TwoSumProblem twoSumProblem = new TwoSumProblem();
         List <Tuple<Integer, Integer>> aList = twoSumProblem.solve(arr, targetSum);
 
-        Assert.assertEquals(Tuple.of(1,5), aList.get(0));
+        assertEquals(Tuple.of(1,5), aList.get(0));
 
 
 

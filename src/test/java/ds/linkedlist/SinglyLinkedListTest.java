@@ -1,8 +1,9 @@
 package ds.linkedlist;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.gen5.api.BeforeAll;
+import org.junit.gen5.api.Test;
+
+import static org.junit.gen5.api.Assertions.assertEquals;
 
 
 public class SinglyLinkedListTest {
@@ -10,7 +11,7 @@ public class SinglyLinkedListTest {
     SinglyLinkedList<Integer> singlyLinkedList;
     SinglyLinkedList<String> singlyLinkedListString;
 
-    @Before
+    @BeforeAll
     public void setUp() {
 
         singlyLinkedList = new SinglyLinkedList<>();
@@ -21,7 +22,7 @@ public class SinglyLinkedListTest {
 
         singlyLinkedList.addFront(1);
         singlyLinkedList.addFront(2);
-        Assert.assertEquals(2, singlyLinkedList.size());
+        assertEquals(2, singlyLinkedList.size());
 
     }
 
@@ -30,7 +31,7 @@ public class SinglyLinkedListTest {
         singlyLinkedList.addFront(1);
         singlyLinkedList.addFront(2);
         int data =singlyLinkedList.getFirst();
-        Assert.assertEquals(2, data);
+        assertEquals(2, data);
     }
 
     @Test
@@ -38,7 +39,7 @@ public class SinglyLinkedListTest {
         singlyLinkedList.addFront(1);
         singlyLinkedList.addFront(2);
         int data = singlyLinkedList.getLast();
-        Assert.assertEquals(1,data);
+        assertEquals(1,data);
     }
 
     @Test
@@ -47,7 +48,7 @@ public class SinglyLinkedListTest {
         singlyLinkedList.addLast(2);
         singlyLinkedList.addLast(3);
         int data = singlyLinkedList.getLast();
-        Assert.assertEquals(3 , data);
+        assertEquals(3 , data);
     }
 
     @Test
@@ -57,7 +58,7 @@ public class SinglyLinkedListTest {
         singlyLinkedList.addLast(3);
         singlyLinkedList.clear();
 
-        Assert.assertEquals(0, singlyLinkedList.size());
+        assertEquals(0, singlyLinkedList.size());
     }
 
     @Test
@@ -68,7 +69,7 @@ public class SinglyLinkedListTest {
         singlyLinkedList.deleteFirst();
         int data = singlyLinkedList.getFirst();
 
-        Assert.assertEquals(2, data);
+        assertEquals(2, data);
     }
 
     @Test
@@ -80,7 +81,7 @@ public class SinglyLinkedListTest {
         singlyLinkedList.deleteLast();
         int data = singlyLinkedList.getLast();
 
-        Assert.assertEquals(2,data);
+        assertEquals(2,data);
 
     }
 
@@ -93,8 +94,8 @@ public class SinglyLinkedListTest {
         int first = singlyLinkedList.getFirst();
         int last = singlyLinkedList.getLast();
 
-        Assert.assertEquals(1,first);
-        Assert.assertEquals(1, last);
+        assertEquals(1,first);
+        assertEquals(1, last);
 
 
 

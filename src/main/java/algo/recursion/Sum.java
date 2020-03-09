@@ -1,4 +1,4 @@
-package algo.arrays.recursion;
+package algo.recursion;
 
 public class Sum {
 

@@ -1,9 +1,8 @@
 package patterns.creational.factory;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.gen5.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.gen5.api.Assertions.assertTrue;
 
 public class PizzaStoreTest {
 
@@ -12,7 +11,7 @@ public class PizzaStoreTest {
 
         PizzaStore pizzaStore = new PizzaStore();
         Pizza p = pizzaStore.orderPizza("chicken");
-        Assert.assertTrue(p instanceof ChickenPizza);
+        assertTrue(p instanceof ChickenPizza);
 
 
     }

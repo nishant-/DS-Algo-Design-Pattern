@@ -1,9 +1,9 @@
 package patterns.creational;
 
-
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.gen5.api.Test;
 import patterns.creational.singleton.Singleton;
+
+import static org.junit.gen5.api.Assertions.assertTrue;
 
 
 public class SingletonTest {
@@ -14,7 +14,7 @@ public class SingletonTest {
         Singleton singleton1 = Singleton.getInstance();
         Singleton singleton2 = Singleton.getInstance();
 
-        Assert.assertTrue(singleton1==singleton2);
+        assertTrue(singleton1==singleton2);
     }
 
 }

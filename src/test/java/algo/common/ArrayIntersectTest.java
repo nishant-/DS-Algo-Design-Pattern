@@ -1,11 +1,12 @@
 package algo.common;
 
-import org.junit.Test;
+import org.junit.gen5.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.gen5.api.Assertions.assertTrue;
+
 
 public class ArrayIntersectTest {
 
@@ -20,4 +21,7 @@ public class ArrayIntersectTest {
         assertTrue(aList.equals(Arrays.asList(2,5)));
     }
 
+    @org.junit.jupiter.api.Test
+    void find() {
+    }
 }

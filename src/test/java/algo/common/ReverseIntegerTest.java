@@ -1,7 +1,8 @@
 package algo.common;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.gen5.api.Test;
+
+import static org.junit.gen5.api.Assertions.assertEquals;
 
 public class ReverseIntegerTest {
 
@@ -9,6 +10,6 @@ public class ReverseIntegerTest {
     public void reverse() {
         ReverseInteger reverseInteger = new ReverseInteger();
         int result = reverseInteger.reverse(1234);
-        Assert.assertEquals(4321, result);
+        assertEquals(4321, result);
     }
 }
