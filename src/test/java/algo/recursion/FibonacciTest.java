@@ -1,12 +1,10 @@
 package algo.recursion;
 
+import org.junit.jupiter.api.Test;
+
 import java.math.BigInteger;
 
-import org.junit.gen5.api.Test;
-
-import static org.junit.gen5.api.Assertions.assertEquals;
-import static org.junit.gen5.api.Assertions.assertThrows;
-
+import static org.junit.jupiter.api.Assertions.*;
 
 class FibonacciTest {
 
@@ -24,5 +22,4 @@ class FibonacciTest {
     public void fibonacci_of_minusOne_throws_IllegalArguementException() {
         assertThrows(IllegalArgumentException.class, () -> Fibonacci.of(-1));
     }
-
 }

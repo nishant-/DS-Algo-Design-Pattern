@@ -16,6 +16,9 @@ public class Fibonacci {
 
     public static BigInteger of(int n) {
 
+        if(n < 0)
+            throw new IllegalArgumentException("number must be positive");
+
         if (!fiboMap.containsKey(n)) {
             fiboMap.put(n, of(n - 1).add(of(n - 2)));
         }
