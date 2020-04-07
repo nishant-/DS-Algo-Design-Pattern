@@ -1,6 +1,6 @@
 package patterns.behavioral.command;
 
-public class Person {
+public class App {
 
     public static void main(String[] args) {
 
