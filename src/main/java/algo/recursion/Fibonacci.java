@@ -22,6 +22,7 @@ public class Fibonacci {
         if (!fiboMap.containsKey(n)) {
             fiboMap.put(n, of(n - 1).add(of(n - 2)));
         }
+
         return fiboMap.get(n);
     }
 }
