@@ -1,16 +1,13 @@
 package algo.common;
 
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
 /**
  * Given two arrays, find the elements common in the 2 arrays
  * and print the result as an ArrayList
- *
  */
 
 public class ArrayIntersect {
