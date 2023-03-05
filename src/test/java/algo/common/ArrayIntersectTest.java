@@ -5,7 +5,7 @@ import org.junit.gen5.api.Test;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.gen5.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 public class ArrayIntersectTest {

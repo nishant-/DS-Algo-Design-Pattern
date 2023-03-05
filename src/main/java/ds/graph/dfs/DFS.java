@@ -1,5 +1,7 @@
 package ds.graph.dfs;
 
+import ds.graph.common.Vertex;
+
 import java.util.List;
 import java.util.Stack;
 

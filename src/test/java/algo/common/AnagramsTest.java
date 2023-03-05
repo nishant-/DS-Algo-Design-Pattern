@@ -2,7 +2,8 @@ package algo.common;
 
 import org.junit.gen5.api.Test;
 
-import static org.junit.gen5.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 
 public class AnagramsTest {
 

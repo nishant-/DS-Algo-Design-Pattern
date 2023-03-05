@@ -5,13 +5,10 @@ public class SinglyLinkedList<T> {
     public void addFront(T data) {
 
         Node<T> node = new Node<>(data);
-        if(head==null) {
-            head = node;
-        }
-        else {
+        if (head != null) {
             node.next = head;
-            head = node;
         }
+        head = node;
         size++;
     }
 
@@ -118,10 +115,8 @@ public class SinglyLinkedList<T> {
     }
 
     static class Node<T> {
-
         T data;
         Node next;
-
         public Node(T data) {
             this.data = data;
             this.next=null;

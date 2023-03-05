@@ -1,9 +1,9 @@
 package patterns.creational;
 
-import org.junit.gen5.api.Test;
+import org.junit.jupiter.api.Test;
 import patterns.creational.singleton.Singleton;
 
-import static org.junit.gen5.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 public class SingletonTest {

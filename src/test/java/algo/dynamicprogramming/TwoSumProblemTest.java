@@ -1,12 +1,13 @@
 package algo.dynamicprogramming;
 
 
-import org.junit.gen5.api.Test;
+import org.junit.jupiter.api.Test;
 import util.Tuple;
 
 import java.util.List;
 
-import static org.junit.gen5.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class TwoSumProblemTest {
 

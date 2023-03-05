@@ -27,7 +27,7 @@ public class FirstNonRepeatingCharacter {
     public static String find(String s) {
 
         Map<Character, Integer> charCount = new LinkedHashMap<>();
-       for(int i = 0; i < s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             charCount.compute(s.charAt(i), (k, v) -> (v == null) ? 1 : v + 1);
         }
 
@@ -36,7 +36,7 @@ public class FirstNonRepeatingCharacter {
                 map(x -> String.valueOf(x.getKey())).
                 findFirst();
 
-        return first.orElseGet(() -> "Not found");
+        return first.orElse("Not found");
     }
 
 }

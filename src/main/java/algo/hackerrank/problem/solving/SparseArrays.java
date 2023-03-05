@@ -20,7 +20,7 @@ public class SparseArrays {
 
         int arr[] = new int[queries.length];
         for(int i = 0; i < queries.length; i++) {
-            arr[i] = frquency.containsKey(queries[i]) ? frquency.get(queries[i]) : 0;
+            arr[i] = frquency.getOrDefault(queries[i], 0);
         }
         return arr;
     }

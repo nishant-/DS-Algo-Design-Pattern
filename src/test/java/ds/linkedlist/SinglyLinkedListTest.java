@@ -1,10 +1,10 @@
 package ds.linkedlist;
 
-import org.junit.gen5.api.BeforeAll;
-import org.junit.gen5.api.Test;
 
-import static org.junit.gen5.api.Assertions.assertEquals;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SinglyLinkedListTest {
 
@@ -89,7 +89,7 @@ public class SinglyLinkedListTest {
     public void deleteByData() {
         singlyLinkedList.addLast(1);
         singlyLinkedList.addLast(2);
-        singlyLinkedList.delete(2);
+        singlyLinkedList.delete(1);
 
         int first = singlyLinkedList.getFirst();
         int last = singlyLinkedList.getLast();

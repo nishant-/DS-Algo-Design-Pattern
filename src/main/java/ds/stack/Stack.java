@@ -24,7 +24,7 @@ public class Stack<T> {
 
     public boolean isEmpty () {
 
-        return top==-1?true:false;
+        return top == -1;
     }
 
     public void push(T data) {
@@ -59,8 +59,6 @@ public class Stack<T> {
         s.display();
         s.pop();
         s.display();
-       // s.push("e");
-       // s.push("f");
         s.pop();
         s.display();
         s.pop();

@@ -17,11 +17,10 @@ public class JumpingClouds {
         while (currentPosition < c.length - 1) {
             if ((currentPosition < (c.length - 2)) && (c[currentPosition + 2] == 0)) {
                 currentPosition = currentPosition + 2;
-                jumpCount++;
             } else {
                 currentPosition++;
-                jumpCount++;
             }
+            jumpCount++;
         }
         return jumpCount;
 
